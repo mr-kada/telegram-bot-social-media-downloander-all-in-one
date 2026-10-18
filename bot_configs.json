@@ -1,0 +1,15 @@
+{
+    "is_notify_login_enabled": true,
+    "is_bot_in_maintenance_mode": false,
+    "admins": [978571497, 691459768],
+    "is_tiktokAccount_enabled": true,
+    "is_youtube_enabled": true,
+    "is_facebook_enabled": true,
+    "is_instagram_enabled": true,
+    "is_tiktok_enabled": true,
+    "is_pinterest_enabled": true,
+    "is_snapchat_enabled": true,
+    "is_likee_enabled": true,
+    "is_jaco_enabled": true,
+    "is_twitter_enabled": true
+}
