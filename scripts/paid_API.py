@@ -5,8 +5,13 @@ import json, asyncio
 # Establishing the connection to the RapidAPI host
 conn = http.client.HTTPSConnection("social-download-all-in-one.p.rapidapi.com")
 
+# READ CONFIGS
+with open("config.json", "r", encoding="utf-8") as file:
+    config = json.load(file)
+
+
 # API KEY
-API_KEY = "1eb84db7c2mshfe959c731c39c1dp1adf87jsn8c3f611b2111"
+API_KEY = config["ALL_IN_ONE_API"]
 
 
 # API
